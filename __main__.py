@@ -2,6 +2,7 @@
 import pulumi
 import storage
 import network
+import vm
 from pulumi_azure_native import resources
 
 env = pulumi.get_stack()
@@ -20,3 +21,6 @@ pulumi.export("vnet_name", vnet.name)
 pulumi.export("web_subnet_id", web_subnet.id)
 pulumi.export("app_subnet_id", app_subnet.id)
 pulumi.export("db_subnet_id", db_subnet.id)
+public_ip, virtual_machine = vm.create_vm(resource_group, web_subnet)
+pulumi.export("public_ip", public_ip.ip_address)
+pulumi.export("ssh_command", public_ip.ip_address.apply(lambda ip: f"ssh -i ~/.ssh/lab_vm azureuser@{ip}"))
