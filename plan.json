@@ -1,0 +1,333 @@
+{
+    "manifest": {
+        "time": "2026-11-17T07:31:19.724735875Z",
+        "magic": "a8ce862bb3201356034a2d41310dffb289d873f576feb681dd14b5ac87d739dd",
+        "version": "v3.276.0"
+    },
+    "config": {
+        "azure-native:location": "centralindia",
+        "pulumi:tags": {
+            "pulumi:template": "azure-python"
+        }
+    },
+    "resourcePlans": {
+        "urn:pulumi:dev::pulumi-azure-labs::azure-native:resources:ResourceGroup::rg": {
+            "goal": {
+                "type": "azure-native:resources:ResourceGroup",
+                "name": "rg",
+                "custom": true,
+                "inputDiff": {
+                    "adds": {
+                        "azureApiVersion": "2024-03-01",
+                        "location": "centralindia",
+                        "resourceGroupName": "rg-lab-dev-gayathri",
+                        "tags": {
+                            "environment": "dev",
+                            "managed-by": "pulumi"
+                        }
+                    }
+                },
+                "outputDiff": {},
+                "parent": "urn:pulumi:dev::pulumi-azure-labs::pulumi:pulumi:Stack::pulumi-azure-labs-dev",
+                "protect": false,
+                "provider": "urn:pulumi:dev::pulumi-azure-labs::pulumi:providers:azure-native::default_3_30_0::04da6b54-80e4-46f7-96ec-b56ff0331ba9",
+                "propertyDependencies": {
+                    "resourceGroupName": [],
+                    "tags": []
+                },
+                "structuredAliases": [
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20151101:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20160201:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20160701:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20160901:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20170510:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20180201:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20180501:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20190301:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20190501:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20190510:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20190701:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20190801:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20191001:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20200601:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20200801:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20201001:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20210101:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20210401:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20220901:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20230701:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20240301:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20240701:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20241101:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20250301:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    },
+                    {
+                        "URN": "",
+                        "Name": "",
+                        "Type": "azure-native:resources/v20250401:ResourceGroup",
+                        "Project": "",
+                        "Stack": "",
+                        "Parent": "",
+                        "NoParent": false
+                    }
+                ],
+                "customTimeouts": {}
+            },
+            "steps": [
+                "create"
+            ],
+            "state": {
+                "id": "04da6b54-80e4-46f7-96ec-b56ff0331ba9",
+                "location": "centralindia",
+                "managedBy": "04da6b54-80e4-46f7-96ec-b56ff0331ba9",
+                "name": "04da6b54-80e4-46f7-96ec-b56ff0331ba9",
+                "properties": "04da6b54-80e4-46f7-96ec-b56ff0331ba9",
+                "tags": {
+                    "environment": "dev",
+                    "managed-by": "pulumi"
+                },
+                "type": "04da6b54-80e4-46f7-96ec-b56ff0331ba9"
+            },
+            "seed": "lwazKwWie1Uqq9n4SvpqUwykoAvJSdE+hl609HBV0Hc="
+        },
+        "urn:pulumi:dev::pulumi-azure-labs::pulumi:providers:azure-native::default_3_30_0": {
+            "goal": {
+                "type": "pulumi:providers:azure-native",
+                "name": "default_3_30_0",
+                "custom": true,
+                "inputDiff": {
+                    "adds": {
+                        "location": "centralindia",
+                        "version": "3.30.0"
+                    }
+                },
+                "outputDiff": {},
+                "protect": false,
+                "customTimeouts": {}
+            },
+            "steps": [
+                "create"
+            ],
+            "state": {
+                "location": "centralindia",
+                "version": "3.30.0"
+            },
+            "seed": "BMBvntB7u2Gcw4dA+Wxrun90zEgm1N8jnVR7yX2SExY="
+        },
+        "urn:pulumi:dev::pulumi-azure-labs::pulumi:pulumi:Stack::pulumi-azure-labs-dev": {
+            "goal": {
+                "type": "pulumi:pulumi:Stack",
+                "name": "pulumi-azure-labs-dev",
+                "custom": false,
+                "inputDiff": {},
+                "outputDiff": {
+                    "adds": {
+                        "location": "centralindia",
+                        "resource_group": "04da6b54-80e4-46f7-96ec-b56ff0331ba9"
+                    }
+                },
+                "protect": false,
+                "customTimeouts": {}
+            },
+            "steps": [
+                "create"
+            ],
+            "state": {
+                "location": "centralindia",
+                "resource_group": "04da6b54-80e4-46f7-96ec-b56ff0331ba9"
+            },
+            "seed": "zOEuu0vxbAEXHs+ZwsKnfdQ+IlD/4DB0FP+DqdVdJ34="
+        }
+    }
+}
